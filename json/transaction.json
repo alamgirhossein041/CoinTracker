@@ -1,0 +1,81 @@
+{
+    "data": {
+        "data": [{
+                "id": "c8139d84-8b60-5584-809a-e56751945772",
+                "type": "trade",
+                "status": "completed",
+                "amount": {
+                    "amount": "-33.39088934",
+                    "currency": "MATIC"
+                },
+                "native_amount": {
+                    "amount": "-48.19",
+                    "currency": "USD"
+                },
+                "description": null,
+                "created_at": "2022-03-10T21:53:14Z",
+                "updated_at": "2022-03-10T21:53:55Z",
+                "resource": "transaction",
+                "resource_path": "/v2/accounts/c509609b-d3a7-52a7-86d6-111477bb1785/transactions/c8139d84-8b60-5584-809a-e56751945772",
+                "instant_exchange": false,
+                "trade": {
+                    "id": "a7e8767d-443c-5ab6-b09e-7adf20dd1c48",
+                    "resource": "trade",
+                    "resource_path": "/v2/trades/a7e8767d-443c-5ab6-b09e-7adf20dd1c48"
+                },
+                "details": {
+                    "title": "Convertis à partir de Polygon",
+                    "subtitle": "En utilisant Portefeuille en MATIC",
+                    "header": "33,39088934 MATIC convertis (48,19 $)",
+                    "health": "positive",
+                    "payment_method_name": "Portefeuille en MATIC"
+                },
+                "hide_native_amount": false
+            },
+            {
+                "id": "e5bd9ff6-4cf0-52c6-b38e-632d5cd2f45c",
+                "type": "trade",
+                "status": "completed",
+                "amount": {
+                    "amount": "33.39088934",
+                    "currency": "MATIC"
+                },
+                "native_amount": {
+                    "amount": "51.74",
+                    "currency": "USD"
+                },
+                "description": null,
+                "created_at": "2022-02-26T15:58:52Z",
+                "updated_at": "2022-02-26T15:58:56Z",
+                "resource": "transaction",
+                "resource_path": "/v2/accounts/c509609b-d3a7-52a7-86d6-111477bb1785/transactions/e5bd9ff6-4cf0-52c6-b38e-632d5cd2f45c",
+                "instant_exchange": false,
+                "trade": {
+                    "id": "28830f38-2a55-5a78-ab28-2598e8160d2d",
+                    "resource": "trade",
+                    "resource_path": "/v2/trades/28830f38-2a55-5a78-ab28-2598e8160d2d"
+                },
+                "details": {
+                    "title": "Converti en Polygon",
+                    "subtitle": "En utilisant Portefeuille en USDT",
+                    "header": "33,39088934 MATIC convertis (51,74 $)",
+                    "health": "positive",
+                    "payment_method_name": "Portefeuille en USDT"
+                },
+                "hide_native_amount": false
+            }
+        ],
+        "pagination": {
+            "ending_before": null,
+            "starting_after": null,
+            "previous_ending_before": null,
+            "next_starting_after": null,
+            "limit": 25,
+            "order": "desc",
+            "previous_uri": null,
+            "next_uri": null
+        }
+    },
+    "mess": "Les transactions sont biens la pour ce token",
+    "transactionCount": 2
+}

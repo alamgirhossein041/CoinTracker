@@ -1,0 +1,19 @@
+extends layout
+
+block layout-content
+ div.container
+    table.table.table-striped.table-bordered.table-hover.table-condensed
+        thead
+        tr
+            th.col-md-2.text-center.text-uppercase.text-primary Transaction
+            th.col-md-2.text-center.text-uppercase.text-primary Currency
+            th.col-md-2.text-center.text-uppercase.text-primary Date
+            th.col-md-2.text-center.text-uppercase.text-primary Amount
+        tbody
+        each transaction in transactions
+            tr
+                td.col-md-2.text-center.text-uppercase.text-primary= transaction.details.title
+                td= transaction.amount.currency
+                td= transaction.created_at
+                td= transaction.amount.amount
+

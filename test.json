@@ -1,0 +1,177 @@
+ {
+     "data": {
+         "data": [{
+                 "id": "9a381d16-d55e-5994-9521-bafe87f09851",
+                 "type": "trade",
+                 "status": "completed",
+                 "amount": {
+                     "amount": "0.01554187",
+                     "currency": "ETH2"
+                 },
+                 "native_amount": {
+                     "amount": "53.68",
+                     "currency": "USD"
+                 },
+                 "description": null,
+                 "created_at": "2022-03-29T15:19:40Z",
+                 "updated_at": "2022-03-29T15:19:45Z",
+                 "resource": "transaction",
+                 "resource_path": "/v2/accounts/f5ccdcc1-170f-514d-89f2-89ab2a32bd0b/transactions/9a381d16-d55e-5994-9521-bafe87f09851",
+                 "instant_exchange": false,
+                 "trade": {
+                     "id": "3a76d24f-3b62-5638-be56-5f1f356e79c9",
+                     "resource": "trade",
+                     "resource_path": "/v2/trades/3a76d24f-3b62-5638-be56-5f1f356e79c9"
+                 },
+                 "details": {
+                     "title": "Converti en Ethereum 2",
+                     "subtitle": "En utilisant Portefeuille en ETH",
+                     "header": "0,01554187 ETH2 converti",
+                     "health": "positive",
+                     "payment_method_name": "Portefeuille en ETH"
+                 },
+                 "hide_native_amount": true
+             },
+             {
+                 "id": "5c220627-06af-5d5f-ac52-2456b2e8b124",
+                 "type": "trade",
+                 "status": "completed",
+                 "amount": {
+                     "amount": "0.01678239",
+                     "currency": "ETH2"
+                 },
+                 "native_amount": {
+                     "amount": "44.15",
+                     "currency": "USD"
+                 },
+                 "description": null,
+                 "created_at": "2022-03-15T21:32:57Z",
+                 "updated_at": "2022-03-15T21:33:01Z",
+                 "resource": "transaction",
+                 "resource_path": "/v2/accounts/f5ccdcc1-170f-514d-89f2-89ab2a32bd0b/transactions/5c220627-06af-5d5f-ac52-2456b2e8b124",
+                 "instant_exchange": false,
+                 "trade": {
+                     "id": "42e64763-2111-5212-99e1-8ce85ec571b5",
+                     "resource": "trade",
+                     "resource_path": "/v2/trades/42e64763-2111-5212-99e1-8ce85ec571b5"
+                 },
+                 "details": {
+                     "title": "Converti en Ethereum 2",
+                     "subtitle": "En utilisant Portefeuille en ETH",
+                     "header": "0,01678239 ETH2 converti",
+                     "health": "positive",
+                     "payment_method_name": "Portefeuille en ETH"
+                 },
+                 "hide_native_amount": true
+             },
+             {
+                 "id": "4c51edb3-dcc0-567a-b200-9cf6b3d9c3f5",
+                 "type": "trade",
+                 "status": "completed",
+                 "amount": {
+                     "amount": "0.01916698",
+                     "currency": "ETH2"
+                 },
+                 "native_amount": {
+                     "amount": "48.85",
+                     "currency": "USD"
+                 },
+                 "description": null,
+                 "created_at": "2022-03-13T20:23:56Z",
+                 "updated_at": "2022-03-13T20:24:03Z",
+                 "resource": "transaction",
+                 "resource_path": "/v2/accounts/f5ccdcc1-170f-514d-89f2-89ab2a32bd0b/transactions/4c51edb3-dcc0-567a-b200-9cf6b3d9c3f5",
+                 "instant_exchange": false,
+                 "trade": {
+                     "id": "86b2ca15-90c2-5b85-acca-dab79c96bc09",
+                     "resource": "trade",
+                     "resource_path": "/v2/trades/86b2ca15-90c2-5b85-acca-dab79c96bc09"
+                 },
+                 "details": {
+                     "title": "Converti en Ethereum 2",
+                     "subtitle": "En utilisant Portefeuille en ETH",
+                     "header": "0,01916698 ETH2 converti",
+                     "health": "positive",
+                     "payment_method_name": "Portefeuille en ETH"
+                 },
+                 "hide_native_amount": true
+             },
+             {
+                 "id": "12df37ca-ae1e-51b4-b2c8-50cbfce84ff6",
+                 "type": "trade",
+                 "status": "completed",
+                 "amount": {
+                     "amount": "0.01810841",
+                     "currency": "ETH2"
+                 },
+                 "native_amount": {
+                     "amount": "47.25",
+                     "currency": "USD"
+                 },
+                 "description": null,
+                 "created_at": "2022-03-10T21:56:12Z",
+                 "updated_at": "2022-03-10T21:56:17Z",
+                 "resource": "transaction",
+                 "resource_path": "/v2/accounts/f5ccdcc1-170f-514d-89f2-89ab2a32bd0b/transactions/12df37ca-ae1e-51b4-b2c8-50cbfce84ff6",
+                 "instant_exchange": false,
+                 "trade": {
+                     "id": "e83b36eb-585e-5541-807e-fdf23bf06fd1",
+                     "resource": "trade",
+                     "resource_path": "/v2/trades/e83b36eb-585e-5541-807e-fdf23bf06fd1"
+                 },
+                 "details": {
+                     "title": "Converti en Ethereum 2",
+                     "subtitle": "En utilisant Portefeuille en ETH",
+                     "header": "0,01810841 ETH2 converti",
+                     "health": "positive",
+                     "payment_method_name": "Portefeuille en ETH"
+                 },
+                 "hide_native_amount": true
+             },
+             {
+                 "id": "25576207-14de-549a-98fb-fc4390b559dd",
+                 "type": "trade",
+                 "status": "completed",
+                 "amount": {
+                     "amount": "0.02295242",
+                     "currency": "ETH2"
+                 },
+                 "native_amount": {
+                     "amount": "60.01",
+                     "currency": "USD"
+                 },
+                 "description": null,
+                 "created_at": "2022-02-27T20:34:26Z",
+                 "updated_at": "2022-02-27T20:34:30Z",
+                 "resource": "transaction",
+                 "resource_path": "/v2/accounts/f5ccdcc1-170f-514d-89f2-89ab2a32bd0b/transactions/25576207-14de-549a-98fb-fc4390b559dd",
+                 "instant_exchange": false,
+                 "trade": {
+                     "id": "30af1f8c-874b-5c3a-8407-7daeb7949985",
+                     "resource": "trade",
+                     "resource_path": "/v2/trades/30af1f8c-874b-5c3a-8407-7daeb7949985"
+                 },
+                 "details": {
+                     "title": "Converti en Ethereum 2",
+                     "subtitle": "En utilisant Portefeuille en ETH",
+                     "header": "0,02295242 ETH2 converti",
+                     "health": "positive",
+                     "payment_method_name": "Portefeuille en ETH"
+                 },
+                 "hide_native_amount": true
+             }
+         ],
+         "pagination": {
+             "ending_before": null,
+             "starting_after": null,
+             "previous_ending_before": null,
+             "next_starting_after": null,
+             "limit": 25,
+             "order": "desc",
+             "previous_uri": null,
+             "next_uri": null
+         }
+     },
+     "mess": "Les transactions sont biens la pour ce token",
+     "transcationCount": 5
+ }
