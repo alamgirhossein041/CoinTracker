@@ -25,7 +25,7 @@ sequelize.authenticate()
 
 const User = UserModel(sequelize, DataTypes);
 
-const sync = () => {
+const syncUserOne = () => {
     return sequelize.sync({ force: true })
         .then(() => {
             User.create({
@@ -145,14 +145,15 @@ const getTokenActive = () => {
 }
 
 
+
 module.exports = {
     initDB,
     User,
-    sync,
+    syncUserOne,
     coinbaseTokenDBreset,
     coinbaseSetTokenList,
     CoinBaseToken,
     getAllTokenDB,
     updateAccountStatus,
-    getTokenActive
+    getTokenActive,
 }

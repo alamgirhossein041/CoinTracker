@@ -27,8 +27,9 @@ app.listen(port, () => console.log(`App listening on port ${port}!`));
 
 
 // sequelize.initDB(); // inutiliser pour l'instant
-// sequelize.sync();
+// sequelize.syncUserOne();
 // sequelize.coinbaseTokenListupdate();
+// sequelize.userOneCreate();
 
 // Main route
 // app.get('/', (req, res) => res.send('Hello World!'));

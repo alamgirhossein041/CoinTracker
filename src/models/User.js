@@ -7,11 +7,19 @@ module.exports = (sequelize, DataTypes) => {
         },
         name: {
             type: DataTypes.STRING,
-            allowNull: false
+            allowNull: false,
+            unique: {
+                args: true,
+                msg: 'This name is already taken'
+            }
         },
         email: {
             type: DataTypes.STRING,
-            allowNull: false
+            allowNull: false,
+            unique: {
+                args: true,
+                msg: 'Email already exists'
+            }
         },
         id_coinbase: {
             type: DataTypes.STRING,
@@ -24,6 +32,14 @@ module.exports = (sequelize, DataTypes) => {
         },
         wallets: {
             type: DataTypes.JSON,
+            allowNull: true
+        },
+        api_key: {
+            type: DataTypes.STRING,
+            allowNull: true
+        },
+        api_secret: {
+            type: DataTypes.STRING,
             allowNull: true
         }
     }, {

@@ -1,10 +1,14 @@
 const crypto = require('crypto');
 const request = require('request');
+// require json file with api keys
+const config = require('../../secret.json');
+
+console.log(config);
 
 const builOptionsRequest = (path) => {
 
-    const apiKey = 'nX38HCWSckkNrN8m';
-    const apiSecret = 'NMkK0JhvW8pNCkJw75FrHUcsDSRYMRiJ';
+    const apiKey = config.api_key;
+    const apiSecret = config.api_secret;
     const timestamp = Math.floor(Date.now() / 1000);
     const req = {
         method: 'GET',
