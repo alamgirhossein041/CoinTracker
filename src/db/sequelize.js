@@ -2,6 +2,7 @@ const { Sequelize, DataTypes, Op } = require('sequelize');
 const request = require('request');
 const UserModel = require('../models/User');
 const CoinBaseTokenModel = require('../models/CoinBaseToken');
+const secret = require('../../secret.json');
 
 const sequelize = new Sequelize(
     'coinbase_wallet',
@@ -33,7 +34,9 @@ const syncUserOne = () => {
                 name: 'Olivier Mongeot',
                 email: 'john@gmail.com',
                 password: '123456',
-                wallets: { BTC: { balance: 0, address: '', type: 'BTC' }, ETH: { balance: 0, address: '', type: 'ETH' }, LTC: { balance: 0, address: '', type: 'LTC' } }
+                wallets: { BTC: { balance: 0, address: '', type: 'BTC' }, ETH: { balance: 0, address: '', type: 'ETH' }, LTC: { balance: 0, address: '', type: 'LTC' } },
+                api_key: secret.api_key,
+                api_secret: secret.api_secret
             }).then(user => {
                 console.log(user);
 
