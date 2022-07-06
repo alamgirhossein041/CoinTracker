@@ -3,6 +3,7 @@ const request = require('request');
 const UserModel = require('../models/User');
 const CoinBaseTokenModel = require('../models/CoinBaseToken');
 const secret = require('../../secret.json');
+const bcrypt = require('bcrypt');
 
 const sequelize = new Sequelize(
     'coinbase_wallet',
@@ -29,20 +30,25 @@ const User = UserModel(sequelize, DataTypes);
 const syncUserOne = () => {
     return sequelize.sync({ force: true })
         .then(() => {
-            User.create({
-                id_coinbase: '64cefb03-09a6-5c81-83d0-537cd1959a1c',
-                name: 'Olivier Mongeot',
-                email: 'john@gmail.com',
-                password: '123456',
-                wallets: { BTC: { balance: 0, address: '', type: 'BTC' }, ETH: { balance: 0, address: '', type: 'ETH' }, LTC: { balance: 0, address: '', type: 'LTC' } },
-                api_key: secret.api_key,
-                api_secret: secret.api_secret
-            }).then(user => {
-                console.log(user);
 
-            }).catch(err => {
-                console.log(err);
+            bcrypt.hash(secret.password, 10).then(hash => {
+
+                User.create({
+                    id_coinbase: '64cefb03-09a6-5c81-83d0-537cd1959a1c',
+                    name: 'Olivier Mongeot',
+                    email: 'john@gmail.com',
+                    password: hash,
+                    wallets: { BTC: { balance: 0, address: '', type: 'BTC' }, ETH: { balance: 0, address: '', type: 'ETH' }, LTC: { balance: 0, address: '', type: 'LTC' } },
+                    api_key: secret.api_key,
+                    api_secret: secret.api_secret
+                }).then(user => {
+                    console.log(user);
+
+                }).catch(err => {
+                    console.log(err);
+                });
             });
+
 
             console.log('Database synced');
         }).catch(err => {

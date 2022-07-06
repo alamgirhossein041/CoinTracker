@@ -1,9 +1,10 @@
 const request = require('request');
 const sequelize = require('../db/sequelize');
+const auth = require('../auth/auth');
 
 
 module.exports = (app) => {
-    app.get('/activeAccountsList', async(req, res) => {
+    app.get('/activeAccountsList', auth, async(req, res) => {
 
 
         let getTokenActive = await sequelize.getTokenActive();
