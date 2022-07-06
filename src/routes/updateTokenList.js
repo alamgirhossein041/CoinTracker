@@ -66,7 +66,22 @@ module.exports = (app) => {
             // Lenght of allAccounts
             console.log('Nbr de tokens', allAccounts.length);
             res.json({ title: 'Tokens', accounts: allAccounts });
-            sequelize.coinbaseSetTokenList(allAccounts);
+            let tokenList = [];
+            allAccounts.forEach(function(element) {
+
+                let name = element.name;
+                let id_wallet = element.id;
+                let id_token = element.currency.asset_id;
+                let code = element.currency.code;
+                tokenList.push({
+                    name,
+                    id_wallet,
+                    id_token,
+                    code
+                });
+            });
+            console.log('tokenList', tokenList);
+            // sequelize.coinbaseSetTokenList(tokenList);
         }
 
 

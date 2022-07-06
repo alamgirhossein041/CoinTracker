@@ -6,7 +6,7 @@ const coinbaseApi = require('./src/api/coinbaseApi');
 const request = require('request');
 const sequelize = require('./src/db/sequelize');
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 const path = require("path");
 
 app
@@ -32,9 +32,11 @@ app.listen(port, () => console.log(`App listening on port ${port}!`));
 // sequelize.syncUserOne();
 
 // Main route
-// app.get('/', (req, res) => res.send('Hello World!'));
+// app.get('/', (req, res) => {
+//     res.render('index', { title: 'Hey', message: 'Hello there!' });
+// });
 app.get('/', (req, res) => {
-    res.render('index', { title: 'Hey', message: 'Hello there!' });
+    res.render('login', { title: 'Hey', message: 'Hello there!' });
 });
 
 // Nouveau end point
