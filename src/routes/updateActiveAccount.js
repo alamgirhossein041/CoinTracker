@@ -3,16 +3,15 @@ const request = require('request');
 const sequelize = require('../db/sequelize');
 
 module.exports = (app) => {
-    app.get('/account/active', async(req, res) => {
+    app.get('/update-active-account', async(req, res) => {
 
-
+        let dataArray = [];
         // Make promise to get all token with transactions
         const fnc = new Promise((resolve, reject) => {
 
             let tokenList = sequelize.getAllTokenDB();
 
             tokenList.then(function(tokenList) {
-                // console.log(tokenList);
                 return resolve(tokenList);
             }).catch(function(err) {
                 reject(err);
@@ -27,16 +26,13 @@ module.exports = (app) => {
 
             for (let i = 0; i < tokenList.length; i++) {
 
-                // setTimeout(function() {
-                //     console.log('-------Token--------');
-                //     console.log(tokenList[i].code);
-                // }, i * 1000);
                 const promis = new Promise((resolve, reject) => {
                     console.log(tokenList[i].code);
-                    const options = coinbaseApi.builOptionsRequest('/v2/accounts/' + tokenList[i].id_wallet + '/transactions');
+
                     // wait 2s before each request
-                    let timerID = setTimeout(() => {
+                    setTimeout(() => {
                         console.log('Launch request for ' + tokenList[i].code);
+                        const options = coinbaseApi.builOptionsRequest('/v2/accounts/' + tokenList[i].id_wallet + '/transactions');
                         request(options, function(error, response) {
                             if (error) {
                                 console.log('error:', error);
@@ -52,12 +48,22 @@ module.exports = (app) => {
 
                 promis.then(function(data) {
                     let dataJson = JSON.parse(data);
-                    let dataLenght = dataJson.data.length;
-                    if (dataLenght > 0) {
-                        sequelize.updateAccountStatus(tokenList[i].code, true);
+                    // Check if property data exist
+                    console.log(dataJson);
+                    if (dataJson.data) {
+
+                        let dataLenght = dataJson.data.length;
+
+                        if (dataLenght > 0) {
+                            dataArray.push(dataJson);
+                            sequelize.updateAccountStatus(tokenList[i].code, true);
+                        } else {
+                            sequelize.updateAccountStatus(tokenList[i].code, false);
+                        }
                     } else {
                         sequelize.updateAccountStatus(tokenList[i].code, false);
                     }
+
                 }).catch(function(err) {
                     console.log(err);
                 });
@@ -66,7 +72,9 @@ module.exports = (app) => {
             console.log(err);
         });
 
+        fnc.then(function(tokenList) {
+            res.json({ title: 'Tokens', accounts: tokenList });
 
-
+        });
     })
 }

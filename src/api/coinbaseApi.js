@@ -3,7 +3,7 @@ const request = require('request');
 // require json file with api keys
 const config = require('../../secret.json');
 
-console.log(config);
+// console.log(config);
 
 const builOptionsRequest = (path) => {
 

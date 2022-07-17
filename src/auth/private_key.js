@@ -1,1 +1,1 @@
-module.exports = "CUSTON_PRIVATE_KEY";
+module.exports = "MY_PRIVATE_KEY";

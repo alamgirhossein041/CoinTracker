@@ -1,6 +1,6 @@
 const request = require('request');
-const sequelize = require('../db/sequelize');
-const auth = require('../auth/auth');
+const sequelize = require('../src/db/sequelize');
+const auth = require('../src/auth/auth');
 
 
 module.exports = (app) => {

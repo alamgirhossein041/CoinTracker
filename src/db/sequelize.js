@@ -5,6 +5,7 @@ const CoinBaseTokenModel = require('../models/CoinBaseToken');
 const secret = require('../../secret.json');
 const bcrypt = require('bcrypt');
 
+
 const sequelize = new Sequelize(
     'coinbase_wallet',
     'root',
@@ -18,6 +19,7 @@ const sequelize = new Sequelize(
     }
 );
 
+// Connexion DB
 sequelize.authenticate()
     .then(() => {
         console.log('Connection has been established successfully.');
@@ -25,9 +27,14 @@ sequelize.authenticate()
         console.error('Unable to connect to the database:', err);
     });
 
-const User = UserModel(sequelize, DataTypes);
 
+const User = UserModel(sequelize, DataTypes);
+const CoinBaseToken = CoinBaseTokenModel(sequelize, DataTypes);
+
+
+// Add a user to DB to test 
 const syncUserOne = () => {
+    console.log('Synchronisation du user 1');
     return sequelize.sync({ force: true })
         .then(() => {
 
@@ -35,14 +42,14 @@ const syncUserOne = () => {
 
                 User.create({
                     id_coinbase: '64cefb03-09a6-5c81-83d0-537cd1959a1c',
-                    name: 'Olivier Mongeot',
+                    name: 'Olivier',
                     email: 'john@gmail.com',
                     password: hash,
                     wallets: { BTC: { balance: 0, address: '', type: 'BTC' }, ETH: { balance: 0, address: '', type: 'ETH' }, LTC: { balance: 0, address: '', type: 'LTC' } },
                     api_key: secret.api_key,
                     api_secret: secret.api_secret
                 }).then(user => {
-                    console.log(user);
+                    // console.log(user);
 
                 }).catch(err => {
                     console.log(err);
@@ -56,17 +63,16 @@ const syncUserOne = () => {
         });
 }
 
-const CoinBaseToken = CoinBaseTokenModel(sequelize, DataTypes);
-
-const coinbaseTokenDBreset = () => {
-
-    return sequelize.sync({ force: true })
-        .then(() => {
-            console.log('Database reset & synced');
-        }).catch(err => {
-            console.error('Unable to sync database:', err);
-        });
+// Supprime tous les tokens de la base de donnée
+const coinbaseTokenDestroy = async() => {
+    await CoinBaseToken.destroy({
+        truncate: true,
+        restartIdentity: true,
+        logging: console.log
+    });
 }
+
+
 
 const coinbaseSetTokenList = (tokenList) => {
     tokenList.map(token => {
@@ -74,52 +80,46 @@ const coinbaseSetTokenList = (tokenList) => {
             name: token.name,
             code: token.code,
             id_wallet: token.id_wallet,
-            id_token: token.id_token
+            id_token: token.id_token,
+            type: token.type
         }).then(token => {
-            console.log(token);
+            // console.log(token);
         }).catch(err => {
             console.log(err);
         });
     })
 }
 
-const initDB = () => {
+const initDB = async() => {
 
     return sequelize.sync({ force: true }).then(() => {
-        // CoinBaseTokens.map(pokemon => {
-        //     Pokemon.create({
-        //         name: pokemon.name,
-        //         hp: pokemon.hp,
-        //         cp: pokemon.cp,
-        //         picture: pokemon.picture,
-        //         types: pokemon.types.join()
-        //     }).then(pokemon => console.log(pokemon.toJSON()))
-        // })
         console.log('La base de donnée a bien été initialisée !')
     })
 }
 
 const getAllTokenDB = () => {
-    // const oneDaysAgo = new Date(new Date().setDate(new Date().getDate() - 1));
     const oneHourAgo = new Date(new Date().setHours(new Date().getHours() - 2));
     const ThirtyminutesAgo = new Date(new Date().setMinutes(new Date().getMinutes() - 10));
     const tokens = CoinBaseToken.findAll({
         // where update time is more longer
-        // class by date update
-        // sort: [
-        //     ['updatedAt', 'ASC']
-        // ],
         where: {
+            // updatedAt: {
+            //     [Op.gt]: ThirtyminutesAgo,
+            //     [Op.lt]: new Date()
+            // },
             // is_transaction: null,
-            updatedAt: {
-                [Op.gt]: ThirtyminutesAgo,
-                [Op.lt]: new Date()
-            }
+            // is_transaction: 1
+            // is_transaction: [{
+            //     [Op.ne]: 1
+            // }, {
+            //     [Op.ne]: 0
+            // }]
         },
+        // More old first
         order: [
-            ['updatedAt', 'DESC']
+            ['updatedAt', 'ASC']
         ],
-        limit: 10
+        limit: 50
     });
     return tokens;
 }
@@ -159,10 +159,10 @@ module.exports = {
     initDB,
     User,
     syncUserOne,
-    coinbaseTokenDBreset,
     coinbaseSetTokenList,
     CoinBaseToken,
     getAllTokenDB,
     updateAccountStatus,
     getTokenActive,
+    coinbaseTokenDestroy
 }

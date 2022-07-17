@@ -9,6 +9,7 @@ block layout-content
             th.col-md-2.text-center.text-uppercase.text-primary Currency
             th.col-md-2.text-center.text-uppercase.text-primary Date
             th.col-md-2.text-center.text-uppercase.text-primary Amount
+            th.col-md-2.text-center.text-uppercase.text-primary Native Amount
         tbody
         each transaction in transactions
             tr
@@ -16,4 +17,6 @@ block layout-content
                 td= transaction.amount.currency
                 td= transaction.created_at
                 td= transaction.amount.amount
+                td= transaction.native_amount.native 
+
 
