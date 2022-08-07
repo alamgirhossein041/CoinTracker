@@ -1,9 +1,9 @@
-const coinbaseApi = require('../api/coinbaseApi');
+const coinbaseApi = require('../../api/coinbaseApi');
 const request = require('request');
-const sequelize = require('../db/sequelize');
+const sequelize = require('../../db/sequelize');
 
 module.exports = (app) => {
-    app.get('/update-active-account', async(req, res) => {
+    app.get('/coinbase/update-active-account', async(req, res) => {
 
         let dataArray = [];
         // Make promise to get all token with transactions
@@ -45,28 +45,32 @@ module.exports = (app) => {
                     }, i * 1000);
 
                 });
-
                 promis.then(function(data) {
                     let dataJson = JSON.parse(data);
                     // Check if property data exist
-                    console.log(dataJson);
+                   
                     if (dataJson.data) {
 
                         let dataLenght = dataJson.data.length;
 
                         if (dataLenght > 0) {
                             dataArray.push(dataJson);
+                             console.log(dataJson);
                             sequelize.updateAccountStatus(tokenList[i].code, true);
                         } else {
+                            console.log('No transaction for ' + tokenList[i].code);
                             sequelize.updateAccountStatus(tokenList[i].code, false);
                         }
                     } else {
                         sequelize.updateAccountStatus(tokenList[i].code, false);
                     }
 
+
+
                 }).catch(function(err) {
                     console.log(err);
                 });
+                
             }
         }).catch(function(err) {
             console.log(err);

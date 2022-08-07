@@ -11,7 +11,8 @@ module.exports = (app) => {
         User.findOne({ where: { name: req.body.name } }).then(user => {
 
             if (!user) {
-                res.status(401).send({ error: 'Invalid username or password' })
+                console.log('User not found');
+                return res.status(401).send({ error: 'Invalid username or password' })
             } else {
                 console.log('Good user' );
             }

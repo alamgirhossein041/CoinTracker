@@ -23,7 +23,7 @@ module.exports = (sequelize, DataTypes) => {
         },
         id_coinbase: {
             type: DataTypes.STRING,
-            allowNull: false,
+            allowNull: true,
             primaryKey: true
         },
         password: {
@@ -40,6 +40,10 @@ module.exports = (sequelize, DataTypes) => {
         },
         api_secret: {
             type: DataTypes.STRING,
+            allowNull: true
+        },
+        is_verified: {
+            type: DataTypes.BOOLEAN,
             allowNull: true
         }
     }, {

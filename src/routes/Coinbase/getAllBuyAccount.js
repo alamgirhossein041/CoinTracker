@@ -1,9 +1,9 @@
-const coinbaseApi = require('../api/coinbaseApi');
+const coinbaseApi = require('../../api/coinbaseApi');
 const request = require('request');
 
 module.exports = (app) => {
     // console.clear();
-    app.get('/buys/:id_account', async(req, res) => {
+    app.get('/coinbase/buys/:id_account', async(req, res) => {
 
         const id_account = req.params.id_account;
         const options = coinbaseApi.builOptionsRequest('/v2/accounts/' + id_account + '/buys');

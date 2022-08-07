@@ -1,9 +1,9 @@
-const coinbaseApi = require('../api/coinbaseApi');
+const coinbaseApi = require('../../api/coinbaseApi');
 const request = require('request');
-const sequelize = require('../db/sequelize');
+const sequelize = require('../../db/sequelize');
 
 module.exports = (app) => {
-    app.get('/tokens-update', (req, res) => {
+    app.get('/coinbase/tokens-update', (req, res) => {
         // Reset DB before inserting new data
         // sequelize.coinbaseTokenDBreset();
         // Get all tokens from the API Coinbase

@@ -1,7 +1,7 @@
-const sequelize = require('../db/sequelize');
+const sequelize = require('../../db/sequelize');
 
 module.exports = (app) => {
-    app.get('/reset-coinbase-token', async(req, res) => {
+    app.get('/coinbase/reset-token', async(req, res) => {
 
         await sequelize.coinbaseTokenDestroy();
         res.json({

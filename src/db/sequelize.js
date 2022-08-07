@@ -22,7 +22,7 @@ const sequelize = new Sequelize(
 // Connexion DB
 sequelize.authenticate()
     .then(() => {
-        console.log('Connection has been established successfully.');
+        console.log('Connection DB has been established successfully.');
     }).catch(err => {
         console.error('Unable to connect to the database:', err);
     });
@@ -35,7 +35,7 @@ const CoinBaseToken = CoinBaseTokenModel(sequelize, DataTypes);
 // Add a user to DB to test 
 const syncUserOne = () => {
     console.log('Synchronisation du user 1');
-    return sequelize.sync({ force: true })
+    return sequelize.sync({  })
         .then(() => {
 
             bcrypt.hash(secret.password, 10).then(hash => {
@@ -43,11 +43,12 @@ const syncUserOne = () => {
                 User.create({
                     id_coinbase: '64cefb03-09a6-5c81-83d0-537cd1959a1c',
                     name: 'Olivier',
-                    email: 'john@gmail.com',
+                    email: 'oliv@gmail.com',
                     password: hash,
                     wallets: { BTC: { balance: 0, address: '', type: 'BTC' }, ETH: { balance: 0, address: '', type: 'ETH' }, LTC: { balance: 0, address: '', type: 'LTC' } },
                     api_key: secret.api_key,
-                    api_secret: secret.api_secret
+                    api_secret: secret.api_secret,
+                    is_verified: true,
                 }).then(user => {
                     // console.log(user);
 
@@ -106,8 +107,8 @@ const getAllTokenDB = () => {
             // updatedAt: {
             //     [Op.gt]: ThirtyminutesAgo,
             //     [Op.lt]: new Date()
-            // },
-            // is_transaction: null,
+            // }
+            is_transaction: null,
             // is_transaction: 1
             // is_transaction: [{
             //     [Op.ne]: 1
@@ -122,6 +123,17 @@ const getAllTokenDB = () => {
         limit: 50
     });
     return tokens;
+}
+
+const getAllTokenActive = () => {
+    // get the token list from the database with transaction status true
+    const tokensList = CoinBaseToken.findAll({
+        where: {
+            is_transaction: 1
+        }
+    });
+    return tokensList;
+
 }
 
 const updateAccountStatus = (tokenCode, status) => {
@@ -164,5 +176,6 @@ module.exports = {
     getAllTokenDB,
     updateAccountStatus,
     getTokenActive,
-    coinbaseTokenDestroy
+    coinbaseTokenDestroy,
+    getAllTokenActive
 }

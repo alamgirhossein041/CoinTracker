@@ -1,11 +1,11 @@
-const coinbaseApi = require('../api/coinbaseApi');
+const coinbaseApi = require('../../api/coinbaseApi');
 const request = require('request');
 // const sequelize = require('../db/sequelize');
-// const auth = require('../auth/auth');
+const auth = require('../../auth/auth');
 
 module.exports = (app) => {
-    // app.get('/user', auth, (req, res) => {
-        app.get('/user', (req, res) => {
+    // app.get('/user', auth, (req, res) => { 
+        app.get('/coinbase/user', (req, res) => {
         function getUser() {
             return new Promise((resolve, reject) => {
                 const options = coinbaseApi.builOptionsRequest('/v2/user');

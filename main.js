@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const morgane = require('morgan');
 // const coinbaseApi = require('./src/api/coinbaseApi');
 // const request = require('request');
-// const sequelize = require('./src/db/sequelize');
+const sequelize = require('./src/db/sequelize');
 const app = express();
 const port = process.env.PORT || 4000;
 const path = require("path");
@@ -36,24 +36,43 @@ app.get('/', (req, res) => {
     res.render('login', { title: 'Hey', message: 'Hello there!' });
 });
 
-// Nouveau end point
+// End point
+//Coinbase
 // Dump all tokens from the API Coinbase
-require('./src/routes/dumpCoinbaseToken')(app);
+require('./src/routes/Coinbase/dumpCoinbaseToken')(app);
 // Met à jour la liste des tokens et renvoie la liste /tokens-update
-require('./src/routes/updateTokenList')(app);
+require('./src/routes/Coinbase/updateTokenList')(app);
 // Get user info from the API Coinbase
-require('./src/routes/infoUser')(app);
+require('./src/routes/Coinbase/infoUser')(app);
 // Update Active Token where there is a transaction
-require('./src/routes/updateActiveAccount')(app);
+require('./src/routes/Coinbase/updateActiveAccount')(app);
 // Get All Buys of an account
-require('./src/routes/getAllBuyAccount')(app);
+require('./src/routes/Coinbase/getAllBuyAccount')(app);
 // Apres Setup 
+require('./src/routes/Coinbase/checkTokenTransaction')(app);
+require('./src/routes/Coinbase/listAccountTransactions')(app);
+require('./src/routes/Coinbase/getAllTransactionsByAccount')(app);
+///wallet-balance
+require('./src/routes/Coinbase/walletBalance')(app);
+//tokens-active
+require('./src/routes/Coinbase/getTokensActive')(app);
 
-require('./src/routes/checkTokenTransaction')(app);
-require('./src/routes/listAccountTransactions')(app);
-
-require('./src/routes/getAllTransactionsByAccount')(app);
 // Login
 require('./src/routes/login')(app);
 
 require('./src/routes/register')(app);
+
+
+//Kucoin wallet
+require('./src/routes/Kucoin/getKucoinWallet')(app);
+
+//Crypto Wallet balance
+require('./src/routes/Crypto/getBalances')(app);
+// Crypto Wallet trades
+require('./src/routes/Crypto/getTrades')(app);
+
+// Gateio wallet
+require('./src/routes/GateIo/getWallet')(app);
+
+// Metamask wallet
+require('./src/routes/Metamask/getWallet')(app);
