@@ -2,6 +2,7 @@
 const request = require('request');
 const sequelize = require('../db/sequelize');
 const { User } = require('../db/sequelize')
+const bcrypt = require('bcrypt')
 
 module.exports = (app) => {
     // console.clear();
@@ -11,11 +12,16 @@ module.exports = (app) => {
             let params = req.body;
             console.log(params);
 
+            // hash password
+            const salt = bcrypt.genSaltSync(10);
+            const hash = bcrypt.hashSync(params.password, salt);
+
             // insert new user in DB 
             let user = await User.create({
                 name: params.username,
                 email: params.email,
-                password: params.password,
+
+                password: hash,
                 id_coinbase: 'null'
             });
     

@@ -48,7 +48,8 @@ let req = (method, params = {}) => {
 const getRequestBody = (method, params) => {
     return JSON.stringify(signRequest(req(method, params), apiKey, apiSecret));
 }
-function getAccountSummary() {
+
+const getAccountSummary = () => {
     console.log('getAccountSummary');
 
     return new Promise((resolve, reject) => {
@@ -68,17 +69,8 @@ function getAccountSummary() {
             }
         }
         );
-
-
     })
-
 }
-getAccountSummary().then(data => {
-    return JSON.parse(data);
-}).catch(err => {
-    console.log('err', err);
-    return err;
-})
 
 
 

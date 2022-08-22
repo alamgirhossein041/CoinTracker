@@ -3,7 +3,6 @@ const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
 const privateKey = require('../auth/private_key.js')
 
-
 module.exports = (app) => {
     app.post('/login', (req, res) => {
         console.log(req.body);
@@ -28,13 +27,10 @@ module.exports = (app) => {
                     return res.status(401).send({ error: 'Invalid username or password' })
                 }
             }).catch(error => {
+                console.log(error);
                 return res.status(401).send({ error: 'Invalid  2 username or password' })
             })
         })
-        // eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjU4MDUyNDc1LCJleHAiOjE2NTgwODg0NzV9.lq5PTHhM7INAzo3MP9DspajtFXxGSh1nKOq_UwKKNnQ
+       
     })
 }
-
-// {
-//     "authorization":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjU4MDUyNDc1LCJleHAiOjE2NTgwODg0NzV9.lq5PTHhM7INAzo3MP9DspajtFXxGSh1nKOq_UwKKNnQ"
-//     }

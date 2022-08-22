@@ -9,7 +9,7 @@ module.exports = (app) => {
         // Make promise to get all token with transactions
         const fnc = new Promise((resolve, reject) => {
 
-            let tokenList = sequelize.getAllTokenDB();
+            let tokenList = sequelize.getAllTokenAllreadyDB();
 
             tokenList.then(function(tokenList) {
                 return resolve(tokenList);
@@ -21,7 +21,7 @@ module.exports = (app) => {
 
         fnc.then(function(tokenList) {
 
-            console.log('-------- Length To Chek API --------');
+            console.log('-------- Length To Chek with API --------');
             console.log(tokenList.length);
 
             for (let i = 0; i < tokenList.length; i++) {
@@ -29,7 +29,7 @@ module.exports = (app) => {
                 const promis = new Promise((resolve, reject) => {
                     console.log(tokenList[i].code);
 
-                    // wait 2s before each request
+                    // wait 1s before each request
                     setTimeout(() => {
                         console.log('Launch request for ' + tokenList[i].code);
                         const options = coinbaseApi.builOptionsRequest('/v2/accounts/' + tokenList[i].id_wallet + '/transactions');

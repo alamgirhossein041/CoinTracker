@@ -21,30 +21,23 @@ module.exports = (sequelize, DataTypes) => {
                 msg: 'Email already exists'
             }
         },
-        id_coinbase: {
-            type: DataTypes.STRING,
-            allowNull: true,
-            primaryKey: true
-        },
         password: {
             type: DataTypes.STRING,
             allowNull: true
         },
-        wallets: {
+        exchanges: {
             type: DataTypes.JSON,
-            allowNull: true
-        },
-        api_key: {
-            type: DataTypes.STRING,
-            allowNull: true
-        },
-        api_secret: {
-            type: DataTypes.STRING,
             allowNull: true
         },
         is_verified: {
             type: DataTypes.BOOLEAN,
-            allowNull: true
+            allowNull: true,
+            defaultValue: false
+        },
+        roles: {
+            type: DataTypes.JSON,
+            allowNull: false,
+            defaultValue: {"admin":false,"user":true}
         }
     }, {
         timestamps: true,

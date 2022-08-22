@@ -34,6 +34,37 @@ const builOptionsRequest = (path) => {
     return options;
 }
 
+
+const builOptionsExchangeRequest = (path) => {
+
+    const apiKey = config.api_key;
+    const apiSecret = config.api_secret;
+    const timestamp = Math.floor(Date.now() / 1000);
+    const req = {
+        method: 'GET',
+        path: path,
+        body: ''
+    };
+
+    const message = timestamp + req.method + req.path + req.body;
+
+    const signature = crypto.createHmac("sha256", apiSecret).update(message).digest("hex");
+
+    const options = {
+        // baseUrl: 'https://api.coinbase.com/',
+        url: req.path,
+        method: req.method,
+        headers: {
+            'CB-ACCESS-SIGN': signature,
+            'CB-ACCESS-TIMESTAMP': timestamp,
+            'CB-ACCESS-KEY': apiKey,
+            'CB-VERSION': '2021-06-23',
+            'User-Agent': 'Olivier'
+        }
+    };
+    return options;
+}
+
 const checkIfAccountHaveTransaction = async (token) => {
     // Check if tokens have transaction
     // For each Token verify by call API if there is a transaction
@@ -100,18 +131,12 @@ const getPrice = async (code) => {
             }
         })
     });
-    // promise.then(function (data) {
-    //     console.log('2.5', data.data);
-    //     return data;
-    // }).catch(function (err) {
-    //     console.log(err);
-    // });
-   
 }
 
 module.exports = {
     builOptionsRequest,
     checkIfAccountHaveTransaction,
     getTradeDetails,
-    getPrice
+    getPrice,
+    builOptionsExchangeRequest
 }

@@ -3,7 +3,7 @@ const CryptoComApi = require('../../api/CryptoComApi');
 
 
 module.exports = (app) => {
-    app.get('/crypto-wallet', async (req, res) => {
+    app.get('/crypto-com/wallet', async (req, res) => {
 
         try {
         let data = await CryptoComApi.
