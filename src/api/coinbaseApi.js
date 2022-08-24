@@ -7,8 +7,8 @@ const config = require('../../secret.json');
 
 const builOptionsRequest = (path) => {
 
-    const apiKey = config.api_key;
-    const apiSecret = config.api_secret;
+    const apiKey = config.coinbase.api_key;
+    const apiSecret = config.coinbase.api_secret;
     const timestamp = Math.floor(Date.now() / 1000);
     const req = {
         method: 'GET',
@@ -37,8 +37,8 @@ const builOptionsRequest = (path) => {
 
 const builOptionsExchangeRequest = (path) => {
 
-    const apiKey = config.api_key;
-    const apiSecret = config.api_secret;
+    const apiKey = config.coinbase.api_key;
+    const apiSecret = config.coinbase.api_secret;
     const timestamp = Math.floor(Date.now() / 1000);
     const req = {
         method: 'GET',

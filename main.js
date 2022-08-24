@@ -39,27 +39,22 @@ app.get('/', (req, res) => {
 //Coinbase
 // SETUP
 // getAllTokenDB
-require('./src/routes/Coinbase/setup/getAllTokenDB')(app);
-// Dump all tokens from the API Coinbase
-require('./src/routes/Coinbase/setup/dumpCoinbaseToken')(app);
-// Met à jour la liste des tokens et renvoie la liste /tokens-update
-require('./src/routes/Coinbase/setup/setupTokenList')(app);
-// Init New DB 
-require('./src/routes/Coinbase/setup/initCoinbaseToken')(app);
+// require('./trash/getAllTokenDB')(app);
+
+// Donne les montand du portefeuille Coinbase 
+require('./src/routes/Coinbase/getWallet')(app);
+
 // Get user info from the API Coinbase
 require('./src/routes/Coinbase/infoUser')(app);
-// Update Active Token where there is a transaction
-require('./src/routes/Coinbase/updateActiveAccount')(app);
-// Get All Buys of an account
-require('./src/routes/Coinbase/getAllBuyAccount')(app);
+
+require('./src/routes/Coinbase/getAllTransaction')(app);
+
 // Apres Setup 
 require('./src/routes/Coinbase/checkTokenTransaction')(app);
 require('./src/routes/Coinbase/listAccountTransactions')(app);
 require('./src/routes/Coinbase/getAllTransactionsByAccount')(app);
-///wallet-balance
-require('./src/routes/Coinbase/walletBalance')(app);
-//tokens-active
-require('./src/routes/Coinbase/setup/getTokensActive')(app);
+
+// require('./trash/getTokensActive')(app);
 // 15/08/22 Get directly account info from the API Coinbase
 require('./src/routes/Coinbase/getsingleAccountById')(app);
 

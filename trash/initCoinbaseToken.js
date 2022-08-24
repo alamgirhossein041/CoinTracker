@@ -1,9 +1,9 @@
-const coinbaseDB = require('../../../db/coinbase');
+const sequelize = require('../src/db/sequelize');
 
 module.exports = (app) => {
-    app.get('/coinbase/reset-token-list', async(req, res) => {
+    app.get('/coinbase/init-db', async(req, res) => {
 
-        let cmd = coinbaseDB.tokenDestroy();
+        let cmd = sequelize.initDB();
 
         cmd.then(() => {
         res.json({

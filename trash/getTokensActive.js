@@ -1,6 +1,6 @@
 
 
-const sequelize = require('../../../db/sequelize');
+const sequelize = require('../src/db/sequelize');
 
 module.exports = (app) => {
     app.get('/coinbase/tokens-active', async (req, res) => {

@@ -1,4 +1,4 @@
-const coinbase = require('../../../db/coinbase');
+const coinbase = require('../src/db/coinbase');
 
 module.exports = (app) => {
     app.get('/coinbase/getTokenDB', async(req, res) => {
