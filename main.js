@@ -57,7 +57,7 @@ require('./src/routes/Crypto/getTrades')(app);
 
 //Gateio wallet
 require('./src/routes/GateIo/getWallet')(app);
-require('./src/routes/GateIo/webSocket')(app);
+// require('./src/routes/GateIo/webSocket')(app);
 
 // Metamask wallet
 require('./src/routes/Metamask/getWallet')(app);
