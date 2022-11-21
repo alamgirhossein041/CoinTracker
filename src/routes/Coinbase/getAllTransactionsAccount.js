@@ -3,15 +3,15 @@ const request = require('request');
 const sequelize = require('../../db/sequelize');
 
 module.exports = (app) => {
-    // console.clear();
+    console.clear();
     app.get('/coinbase/transaction/:id_account', async(req, res) => {
-
+        // console.clear();
         const id_account = req.params.id_account;
         var allTransactions = [];
         let path = '/v2/accounts/' + id_account + '/transactions';
         let nextPagePath = null;
 
-        function listAllTransaction(path) {
+        function listOnePageTransactions(path) {
             return new Promise((resolve, reject) => {
                 const options = coinbaseApi.builOptionsRequest(path);
                 request(options, function(error, response) {
@@ -23,7 +23,8 @@ module.exports = (app) => {
                     if (response.statusCode == 200) {
                         let data = JSON.parse(response.body);
                         nextPagePath = data.pagination.next_uri;
-                        // console.log('get Next Page', nextPagePath);
+                        console.log('get Next Page(data.pagination.next_uri)', nextPagePath);
+                        console.log(data.pagination);
                         resolve(data.data);
                     }
                 })
@@ -31,15 +32,15 @@ module.exports = (app) => {
         }
 
 
-        async function getAllTransaction() {
+        async function getAllPagesTransaction() {
 
-            let data = await listAllTransaction(path);
+            let data = await listOnePageTransactions(path);
             console.log('data Lenght part', data.length);
             console.log('Next page', nextPagePath);
             allTransactions = allTransactions.concat(data);
 
             while (nextPagePath != null) {
-                let dataNextPage = await listAllTransaction(nextPagePath);
+                let dataNextPage = await listOnePageTransactions(nextPagePath);
                 allTransactions = allTransactions.concat(dataNextPage);
                 console.log('get Next Page', nextPagePath);
             }
@@ -52,7 +53,7 @@ module.exports = (app) => {
             let TotalDeposit = 0;
             let TotalBuy = 0;
             let TotalSell = 0;
-            let ParsedTransactions = {};
+            let ParsedTransactions = [];
             for (let i = 0; i < allTransactions.length; i++) {
                 console.log(allTransactions[i].native_amount.amount);
                 console.log(allTransactions[i].native_amount.currency);
@@ -131,29 +132,21 @@ module.exports = (app) => {
                     TotalReceive += parseFloat(allTransactions[i].amount.amount);
                 }
             }
-            // let table = buildTable(allTransactions);
-            // res.send(table);
-            // res.render('transactions', {
-            //     title: 'Transactions',
-            //     transactions: allTransactions,
-            //     transactionLenght: allTransactions.length,
-            //     totalAmount: allTransactions.reduce((acc, cur) => {
-            //         return acc + cur.native_amount.amount;
-            //     }, 0)
-            // });
+           
             res.json({
                 title: 'Transactions',
-                transactions: ParsedTransactions,
+                rawTransaction: allTransactions,
+                ParsedTransactions: ParsedTransactions,
                 transactionCount: allTransactions.length,
+                parsedTransactionsLength: ParsedTransactions.length,
+                // TotalTradeFiat: TotalTradeFiat,
+                // TotalTradeToken: TotalTradeToken,
 
-                TotalTradeFiat: TotalTradeFiat,
-                TotalTradeToken: TotalTradeToken,
+                // TotalWithdraw: TotalWithdraw,
+                // TotalDeposit: TotalDeposit,
 
-                TotalWithdraw: TotalWithdraw,
-                TotalDeposit: TotalDeposit,
-
-                totalBuyFiat: TotalBuy,
-                totalSellFiat: TotalSell
+                // totalBuyFiat: TotalBuy,
+                // totalSellFiat: TotalSell
             });
         }
 
@@ -168,7 +161,7 @@ module.exports = (app) => {
 
 
 
-        getAllTransaction();
+        getAllPagesTransaction();
 
     });
 }

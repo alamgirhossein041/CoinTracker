@@ -1,4 +1,4 @@
-const coinbaseApi = require('../../api/coinbaseApi');
+const coinbaseApi = require('../src/api/coinbaseApi');
 
 const request = require('request');
 

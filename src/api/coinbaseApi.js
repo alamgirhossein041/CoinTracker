@@ -6,7 +6,7 @@ const config = require('../../secret.json');
 // console.log(config);
 
 const builOptionsRequest = (path) => {
-
+    // TO DO : recuperer les log du user en BDD
     const apiKey = config.coinbase.api_key;
     const apiSecret = config.coinbase.api_secret;
     const timestamp = Math.floor(Date.now() / 1000);
@@ -66,9 +66,6 @@ const builOptionsExchangeRequest = (path) => {
 }
 
 const checkIfAccountHaveTransaction = async (token) => {
-    // Check if tokens have transaction
-    // For each Token verify by call API if there is a transaction
-    // If there is a transaction, update the DB
 
     const options = builOptionsRequest('/v2/accounts/' + token
         .id_wallet + '/transactions');

@@ -1,0 +1,3334 @@
+{
+    "allTransactions": [
+      {
+        "id": "652c8238-8dc4-5446-b0ec-c42e22d20bd1",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27236824",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:56:17Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/652c8238-8dc4-5446-b0ec-c42e22d20bd1",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27236824 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "8343505d-2f82-5246-b603-ea179587ebc4",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27281407",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:55:09Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/8343505d-2f82-5246-b603-ea179587ebc4",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27281407 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "972417d6-1cb6-51ae-858d-18cccfc8c23e",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27255382",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:54:09Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/972417d6-1cb6-51ae-858d-18cccfc8c23e",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27255382 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "652c8238-8dc4-5446-b0ec-c42e22d20bd1",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27236824",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:56:17Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/652c8238-8dc4-5446-b0ec-c42e22d20bd1",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27236824 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "8343505d-2f82-5246-b603-ea179587ebc4",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27281407",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:55:09Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/8343505d-2f82-5246-b603-ea179587ebc4",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27281407 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "972417d6-1cb6-51ae-858d-18cccfc8c23e",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27255382",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:54:09Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/972417d6-1cb6-51ae-858d-18cccfc8c23e",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27255382 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "652c8238-8dc4-5446-b0ec-c42e22d20bd1",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27236824",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:56:17Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/652c8238-8dc4-5446-b0ec-c42e22d20bd1",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27236824 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "8343505d-2f82-5246-b603-ea179587ebc4",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27281407",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:55:09Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/8343505d-2f82-5246-b603-ea179587ebc4",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27281407 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "972417d6-1cb6-51ae-858d-18cccfc8c23e",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27255382",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:54:09Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/972417d6-1cb6-51ae-858d-18cccfc8c23e",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27255382 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "7ceebc6e-5dc7-5af2-aa0e-d4c2e02a832c",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.83068377",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "1.00",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:58:10Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/7ceebc6e-5dc7-5af2-aa0e-d4c2e02a832c",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,83068377 ALEPH reçus (1,00 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "030c4ae8-5228-500e-9786-550abf57a165",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.82921692",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:57:15Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/030c4ae8-5228-500e-9786-550abf57a165",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,82921692 ALEPH reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "84af8a3a-2de8-5856-b03f-25e00ff95d97",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.83141762",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:55:59Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/84af8a3a-2de8-5856-b03f-25e00ff95d97",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,83141762 ALEPH reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "652c8238-8dc4-5446-b0ec-c42e22d20bd1",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27236824",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:56:17Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/652c8238-8dc4-5446-b0ec-c42e22d20bd1",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27236824 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "8343505d-2f82-5246-b603-ea179587ebc4",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27281407",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:55:09Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/8343505d-2f82-5246-b603-ea179587ebc4",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27281407 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "972417d6-1cb6-51ae-858d-18cccfc8c23e",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27255382",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:54:09Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/972417d6-1cb6-51ae-858d-18cccfc8c23e",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27255382 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "7ceebc6e-5dc7-5af2-aa0e-d4c2e02a832c",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.83068377",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "1.00",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:58:10Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/7ceebc6e-5dc7-5af2-aa0e-d4c2e02a832c",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,83068377 ALEPH reçus (1,00 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "030c4ae8-5228-500e-9786-550abf57a165",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.82921692",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:57:15Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/030c4ae8-5228-500e-9786-550abf57a165",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,82921692 ALEPH reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "84af8a3a-2de8-5856-b03f-25e00ff95d97",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.83141762",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:55:59Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/84af8a3a-2de8-5856-b03f-25e00ff95d97",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,83141762 ALEPH reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "652c8238-8dc4-5446-b0ec-c42e22d20bd1",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27236824",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:56:17Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/652c8238-8dc4-5446-b0ec-c42e22d20bd1",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27236824 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "8343505d-2f82-5246-b603-ea179587ebc4",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27281407",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:55:09Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/8343505d-2f82-5246-b603-ea179587ebc4",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27281407 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "972417d6-1cb6-51ae-858d-18cccfc8c23e",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27255382",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:54:09Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/972417d6-1cb6-51ae-858d-18cccfc8c23e",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27255382 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "7ceebc6e-5dc7-5af2-aa0e-d4c2e02a832c",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.83068377",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "1.00",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:58:10Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/7ceebc6e-5dc7-5af2-aa0e-d4c2e02a832c",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,83068377 ALEPH reçus (1,00 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "030c4ae8-5228-500e-9786-550abf57a165",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.82921692",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:57:15Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/030c4ae8-5228-500e-9786-550abf57a165",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,82921692 ALEPH reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "84af8a3a-2de8-5856-b03f-25e00ff95d97",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.83141762",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:55:59Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/84af8a3a-2de8-5856-b03f-25e00ff95d97",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,83141762 ALEPH reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "652c8238-8dc4-5446-b0ec-c42e22d20bd1",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27236824",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:56:17Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/652c8238-8dc4-5446-b0ec-c42e22d20bd1",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27236824 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "8343505d-2f82-5246-b603-ea179587ebc4",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27281407",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:55:09Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/8343505d-2f82-5246-b603-ea179587ebc4",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27281407 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "972417d6-1cb6-51ae-858d-18cccfc8c23e",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27255382",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:54:09Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/972417d6-1cb6-51ae-858d-18cccfc8c23e",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27255382 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "7ceebc6e-5dc7-5af2-aa0e-d4c2e02a832c",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.83068377",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "1.00",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:58:10Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/7ceebc6e-5dc7-5af2-aa0e-d4c2e02a832c",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,83068377 ALEPH reçus (1,00 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "030c4ae8-5228-500e-9786-550abf57a165",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.82921692",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:57:15Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/030c4ae8-5228-500e-9786-550abf57a165",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,82921692 ALEPH reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "84af8a3a-2de8-5856-b03f-25e00ff95d97",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.83141762",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:55:59Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/84af8a3a-2de8-5856-b03f-25e00ff95d97",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,83141762 ALEPH reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "652c8238-8dc4-5446-b0ec-c42e22d20bd1",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27236824",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:56:17Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/652c8238-8dc4-5446-b0ec-c42e22d20bd1",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27236824 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "8343505d-2f82-5246-b603-ea179587ebc4",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27281407",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:55:09Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/8343505d-2f82-5246-b603-ea179587ebc4",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27281407 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "972417d6-1cb6-51ae-858d-18cccfc8c23e",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27255382",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:54:09Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/972417d6-1cb6-51ae-858d-18cccfc8c23e",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27255382 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "7ceebc6e-5dc7-5af2-aa0e-d4c2e02a832c",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.83068377",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "1.00",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:58:10Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/7ceebc6e-5dc7-5af2-aa0e-d4c2e02a832c",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,83068377 ALEPH reçus (1,00 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "030c4ae8-5228-500e-9786-550abf57a165",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.82921692",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:57:15Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/030c4ae8-5228-500e-9786-550abf57a165",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,82921692 ALEPH reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "84af8a3a-2de8-5856-b03f-25e00ff95d97",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.83141762",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:55:59Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/84af8a3a-2de8-5856-b03f-25e00ff95d97",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,83141762 ALEPH reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "652c8238-8dc4-5446-b0ec-c42e22d20bd1",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27236824",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:56:17Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/652c8238-8dc4-5446-b0ec-c42e22d20bd1",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27236824 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "8343505d-2f82-5246-b603-ea179587ebc4",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27281407",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:55:09Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/8343505d-2f82-5246-b603-ea179587ebc4",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27281407 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "972417d6-1cb6-51ae-858d-18cccfc8c23e",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27255382",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:54:09Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/972417d6-1cb6-51ae-858d-18cccfc8c23e",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27255382 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "7ceebc6e-5dc7-5af2-aa0e-d4c2e02a832c",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.83068377",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "1.00",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:58:10Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/7ceebc6e-5dc7-5af2-aa0e-d4c2e02a832c",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,83068377 ALEPH reçus (1,00 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "030c4ae8-5228-500e-9786-550abf57a165",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.82921692",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:57:15Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/030c4ae8-5228-500e-9786-550abf57a165",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,82921692 ALEPH reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "84af8a3a-2de8-5856-b03f-25e00ff95d97",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.83141762",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:55:59Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/84af8a3a-2de8-5856-b03f-25e00ff95d97",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,83141762 ALEPH reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "652c8238-8dc4-5446-b0ec-c42e22d20bd1",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27236824",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:56:17Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/652c8238-8dc4-5446-b0ec-c42e22d20bd1",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27236824 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "8343505d-2f82-5246-b603-ea179587ebc4",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27281407",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:55:09Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/8343505d-2f82-5246-b603-ea179587ebc4",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27281407 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "972417d6-1cb6-51ae-858d-18cccfc8c23e",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27255382",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:54:09Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/972417d6-1cb6-51ae-858d-18cccfc8c23e",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27255382 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "7ceebc6e-5dc7-5af2-aa0e-d4c2e02a832c",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.83068377",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "1.00",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:58:10Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/7ceebc6e-5dc7-5af2-aa0e-d4c2e02a832c",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,83068377 ALEPH reçus (1,00 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "030c4ae8-5228-500e-9786-550abf57a165",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.82921692",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:57:15Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/030c4ae8-5228-500e-9786-550abf57a165",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,82921692 ALEPH reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "84af8a3a-2de8-5856-b03f-25e00ff95d97",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.83141762",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:55:59Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/84af8a3a-2de8-5856-b03f-25e00ff95d97",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,83141762 ALEPH reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "652c8238-8dc4-5446-b0ec-c42e22d20bd1",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27236824",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:56:17Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/652c8238-8dc4-5446-b0ec-c42e22d20bd1",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27236824 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "8343505d-2f82-5246-b603-ea179587ebc4",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27281407",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:55:09Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/8343505d-2f82-5246-b603-ea179587ebc4",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27281407 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "972417d6-1cb6-51ae-858d-18cccfc8c23e",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27255382",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:54:09Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/972417d6-1cb6-51ae-858d-18cccfc8c23e",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27255382 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "7ceebc6e-5dc7-5af2-aa0e-d4c2e02a832c",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.83068377",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "1.00",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:58:10Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/7ceebc6e-5dc7-5af2-aa0e-d4c2e02a832c",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,83068377 ALEPH reçus (1,00 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "030c4ae8-5228-500e-9786-550abf57a165",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.82921692",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:57:15Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/030c4ae8-5228-500e-9786-550abf57a165",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,82921692 ALEPH reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "84af8a3a-2de8-5856-b03f-25e00ff95d97",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.83141762",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:55:59Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/84af8a3a-2de8-5856-b03f-25e00ff95d97",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,83141762 ALEPH reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "652c8238-8dc4-5446-b0ec-c42e22d20bd1",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27236824",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:56:17Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/652c8238-8dc4-5446-b0ec-c42e22d20bd1",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27236824 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "8343505d-2f82-5246-b603-ea179587ebc4",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27281407",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:55:09Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/8343505d-2f82-5246-b603-ea179587ebc4",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27281407 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "972417d6-1cb6-51ae-858d-18cccfc8c23e",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27255382",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:54:09Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/972417d6-1cb6-51ae-858d-18cccfc8c23e",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27255382 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "7ceebc6e-5dc7-5af2-aa0e-d4c2e02a832c",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.83068377",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "1.00",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:58:10Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/7ceebc6e-5dc7-5af2-aa0e-d4c2e02a832c",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,83068377 ALEPH reçus (1,00 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "030c4ae8-5228-500e-9786-550abf57a165",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.82921692",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:57:15Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/030c4ae8-5228-500e-9786-550abf57a165",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,82921692 ALEPH reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "84af8a3a-2de8-5856-b03f-25e00ff95d97",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.83141762",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:55:59Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/84af8a3a-2de8-5856-b03f-25e00ff95d97",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,83141762 ALEPH reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "652c8238-8dc4-5446-b0ec-c42e22d20bd1",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27236824",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:56:17Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/652c8238-8dc4-5446-b0ec-c42e22d20bd1",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27236824 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "8343505d-2f82-5246-b603-ea179587ebc4",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27281407",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:55:09Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/8343505d-2f82-5246-b603-ea179587ebc4",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27281407 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "972417d6-1cb6-51ae-858d-18cccfc8c23e",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27255382",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:54:09Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/972417d6-1cb6-51ae-858d-18cccfc8c23e",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27255382 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "7ceebc6e-5dc7-5af2-aa0e-d4c2e02a832c",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.83068377",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "1.00",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:58:10Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/7ceebc6e-5dc7-5af2-aa0e-d4c2e02a832c",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,83068377 ALEPH reçus (1,00 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "030c4ae8-5228-500e-9786-550abf57a165",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.82921692",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:57:15Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/030c4ae8-5228-500e-9786-550abf57a165",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,82921692 ALEPH reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "84af8a3a-2de8-5856-b03f-25e00ff95d97",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.83141762",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:55:59Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/84af8a3a-2de8-5856-b03f-25e00ff95d97",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,83141762 ALEPH reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "652c8238-8dc4-5446-b0ec-c42e22d20bd1",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27236824",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:56:17Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/652c8238-8dc4-5446-b0ec-c42e22d20bd1",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27236824 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "8343505d-2f82-5246-b603-ea179587ebc4",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27281407",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:55:09Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/8343505d-2f82-5246-b603-ea179587ebc4",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27281407 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "972417d6-1cb6-51ae-858d-18cccfc8c23e",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27255382",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:54:09Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/972417d6-1cb6-51ae-858d-18cccfc8c23e",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27255382 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "7ceebc6e-5dc7-5af2-aa0e-d4c2e02a832c",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.83068377",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "1.00",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:58:10Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/7ceebc6e-5dc7-5af2-aa0e-d4c2e02a832c",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,83068377 ALEPH reçus (1,00 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "030c4ae8-5228-500e-9786-550abf57a165",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.82921692",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:57:15Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/030c4ae8-5228-500e-9786-550abf57a165",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,82921692 ALEPH reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "84af8a3a-2de8-5856-b03f-25e00ff95d97",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.83141762",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:55:59Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/84af8a3a-2de8-5856-b03f-25e00ff95d97",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,83141762 ALEPH reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "652c8238-8dc4-5446-b0ec-c42e22d20bd1",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27236824",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:56:17Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/652c8238-8dc4-5446-b0ec-c42e22d20bd1",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27236824 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "8343505d-2f82-5246-b603-ea179587ebc4",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27281407",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:55:09Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/8343505d-2f82-5246-b603-ea179587ebc4",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27281407 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "972417d6-1cb6-51ae-858d-18cccfc8c23e",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27255382",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:54:09Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/972417d6-1cb6-51ae-858d-18cccfc8c23e",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27255382 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "7ceebc6e-5dc7-5af2-aa0e-d4c2e02a832c",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.83068377",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "1.00",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:58:10Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/7ceebc6e-5dc7-5af2-aa0e-d4c2e02a832c",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,83068377 ALEPH reçus (1,00 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "030c4ae8-5228-500e-9786-550abf57a165",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.82921692",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:57:15Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/030c4ae8-5228-500e-9786-550abf57a165",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,82921692 ALEPH reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "84af8a3a-2de8-5856-b03f-25e00ff95d97",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.83141762",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:55:59Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/84af8a3a-2de8-5856-b03f-25e00ff95d97",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,83141762 ALEPH reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "e86b9f22-f4c4-57a9-ae24-b97d0ae2c5b7",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "11.06194690",
+          "currency": "HOPR"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:54:15Z",
+        "updated_at": "2022-08-07T14:03:12Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/7f761d5e-c137-52f3-b5f4-1c19f737271f/transactions/e86b9f22-f4c4-57a9-ae24-b97d0ae2c5b7",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "45200b5e-fcd0-53ad-af04-1106494113e4",
+          "resource": "user",
+          "resource_path": "/v2/users/45200b5e-fcd0-53ad-af04-1106494113e4",
+          "currency": "HOPR"
+        },
+        "details": {
+          "title": "HOPR reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "11,0619469 HOPR reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "c6f978de-557e-5408-a52b-c8e5e880f1f8",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "11.06194690",
+          "currency": "HOPR"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:53:02Z",
+        "updated_at": "2022-08-07T14:03:13Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/7f761d5e-c137-52f3-b5f4-1c19f737271f/transactions/c6f978de-557e-5408-a52b-c8e5e880f1f8",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "45200b5e-fcd0-53ad-af04-1106494113e4",
+          "resource": "user",
+          "resource_path": "/v2/users/45200b5e-fcd0-53ad-af04-1106494113e4",
+          "currency": "HOPR"
+        },
+        "details": {
+          "title": "HOPR reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "11,0619469 HOPR reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "634d1260-ef3e-54f1-b3bd-a4bac878698b",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "11.06194690",
+          "currency": "HOPR"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:49:51Z",
+        "updated_at": "2022-08-07T14:03:13Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/7f761d5e-c137-52f3-b5f4-1c19f737271f/transactions/634d1260-ef3e-54f1-b3bd-a4bac878698b",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "45200b5e-fcd0-53ad-af04-1106494113e4",
+          "resource": "user",
+          "resource_path": "/v2/users/45200b5e-fcd0-53ad-af04-1106494113e4",
+          "currency": "HOPR"
+        },
+        "details": {
+          "title": "HOPR reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "11,0619469 HOPR reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "652c8238-8dc4-5446-b0ec-c42e22d20bd1",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27236824",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:56:17Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/652c8238-8dc4-5446-b0ec-c42e22d20bd1",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27236824 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "8343505d-2f82-5246-b603-ea179587ebc4",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27281407",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:55:09Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/8343505d-2f82-5246-b603-ea179587ebc4",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27281407 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "972417d6-1cb6-51ae-858d-18cccfc8c23e",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "0.27255382",
+          "currency": "GAL"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-03T04:54:09Z",
+        "updated_at": "2022-08-03T08:53:58Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/5c600887-510e-52ca-a421-d127635976b4/transactions/972417d6-1cb6-51ae-858d-18cccfc8c23e",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "b24bd496-a931-5756-a672-9251242901e6",
+          "resource": "user",
+          "resource_path": "/v2/users/b24bd496-a931-5756-a672-9251242901e6",
+          "currency": "GAL"
+        },
+        "details": {
+          "title": "Project Galaxy reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "0,27255382 GAL reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "7ceebc6e-5dc7-5af2-aa0e-d4c2e02a832c",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.83068377",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "1.00",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:58:10Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/7ceebc6e-5dc7-5af2-aa0e-d4c2e02a832c",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,83068377 ALEPH reçus (1,00 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "030c4ae8-5228-500e-9786-550abf57a165",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.82921692",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:57:15Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/030c4ae8-5228-500e-9786-550abf57a165",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,82921692 ALEPH reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "84af8a3a-2de8-5856-b03f-25e00ff95d97",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "3.83141762",
+          "currency": "ALEPH"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:55:59Z",
+        "updated_at": "2022-08-07T14:01:42Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/964971b2-f1d2-5414-a069-a8f3222ef852/transactions/84af8a3a-2de8-5856-b03f-25e00ff95d97",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "db19737d-557c-595c-8137-ddd3514ee8e8",
+          "resource": "user",
+          "resource_path": "/v2/users/db19737d-557c-595c-8137-ddd3514ee8e8",
+          "currency": "ALEPH"
+        },
+        "details": {
+          "title": "Aleph.im reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "3,83141762 ALEPH reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "e86b9f22-f4c4-57a9-ae24-b97d0ae2c5b7",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "11.06194690",
+          "currency": "HOPR"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:54:15Z",
+        "updated_at": "2022-08-07T14:03:12Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/7f761d5e-c137-52f3-b5f4-1c19f737271f/transactions/e86b9f22-f4c4-57a9-ae24-b97d0ae2c5b7",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "45200b5e-fcd0-53ad-af04-1106494113e4",
+          "resource": "user",
+          "resource_path": "/v2/users/45200b5e-fcd0-53ad-af04-1106494113e4",
+          "currency": "HOPR"
+        },
+        "details": {
+          "title": "HOPR reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "11,0619469 HOPR reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "c6f978de-557e-5408-a52b-c8e5e880f1f8",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "11.06194690",
+          "currency": "HOPR"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:53:02Z",
+        "updated_at": "2022-08-07T14:03:13Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/7f761d5e-c137-52f3-b5f4-1c19f737271f/transactions/c6f978de-557e-5408-a52b-c8e5e880f1f8",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "45200b5e-fcd0-53ad-af04-1106494113e4",
+          "resource": "user",
+          "resource_path": "/v2/users/45200b5e-fcd0-53ad-af04-1106494113e4",
+          "currency": "HOPR"
+        },
+        "details": {
+          "title": "HOPR reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "11,0619469 HOPR reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      },
+      {
+        "id": "634d1260-ef3e-54f1-b3bd-a4bac878698b",
+        "type": "send",
+        "status": "completed",
+        "amount": {
+          "amount": "11.06194690",
+          "currency": "HOPR"
+        },
+        "native_amount": {
+          "amount": "0.99",
+          "currency": "USD"
+        },
+        "description": "Earn Task",
+        "created_at": "2022-08-07T10:49:51Z",
+        "updated_at": "2022-08-07T14:03:13Z",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/7f761d5e-c137-52f3-b5f4-1c19f737271f/transactions/634d1260-ef3e-54f1-b3bd-a4bac878698b",
+        "instant_exchange": false,
+        "off_chain_status": "completed",
+        "network": {
+          "status": "off_blockchain",
+          "status_description": null
+        },
+        "from": {
+          "id": "45200b5e-fcd0-53ad-af04-1106494113e4",
+          "resource": "user",
+          "resource_path": "/v2/users/45200b5e-fcd0-53ad-af04-1106494113e4",
+          "currency": "HOPR"
+        },
+        "details": {
+          "title": "HOPR reçus",
+          "subtitle": "De Coinbase Earn",
+          "header": "11,0619469 HOPR reçus (0,99 $)",
+          "health": "positive"
+        },
+        "hide_native_amount": false
+      }
+    ]
+  }

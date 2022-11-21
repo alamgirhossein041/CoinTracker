@@ -9,11 +9,7 @@ const signRequest = (request_body, api_key, secret) => {
     function isArray(obj) { return obj !== undefined && obj !== null && obj.constructor == Array; }
     function arrayToString(obj) { return obj.reduce((a, b) => { return a + (isObject(b) ? objectToString(b) : (isArray(b) ? arrayToString(b) : b)); }, ""); }
     function objectToString(obj) { return (obj == null ? "" : Object.keys(obj).sort().reduce((a, b) => { return a + b + (isArray(obj[b]) ? arrayToString(obj[b]) : (isObject(obj[b]) ? objectToString(obj[b]) : obj[b])); }, "")); }
-
     const paramsString = objectToString(params);
-
-    // console.log('paramsString', paramsString);
-
     const sigPayload = method + id + api_key + paramsString + nonce;
     request_body.sig = crypto.HmacSHA256(sigPayload, secret).toString(crypto.enc.Hex);
     return request_body;
@@ -35,13 +31,17 @@ const apiKey = config.Crypto.api_key;
 const apiSecret = config.Crypto.api_secret;
 
 let req = (method, params = {}) => {
+    // Correction tu ts suite error de connection, retrait de 20 sec pour se caller au serveur
+    let nonce = new Date().getTime() - 20000;
+    // console.log('nonce', nonce)
     return {
         // For id set random integer value bettwen 10 and 1000
         id: Math.floor(Math.random() * (10000 - 10 + 1)) + 10,
         method: method,
         api_key: apiKey,
         params: params,
-        nonce: Date.now()
+        // nonce: Date.now() + 100
+        nonce: nonce
     };
 }
 
@@ -66,6 +66,10 @@ const getAccountSummary = () => {
             }
             if (response.statusCode == 200) {
                 resolve(response.body);
+            } else {
+                console.log('Statut code response ',response.statusCode);
+                console.log('body ',response.body);
+                resolve(response.body)
             }
         }
         );
@@ -138,15 +142,12 @@ async function getOrderHistoryLoop(startDate, daysFetched) {
         i++;
     }
 
-    // Filter out trades that are not completed
     orderHistory = orderHistory
     .filter(trade => trade.status == 'FILLED')
-   // sort by timestamp newer to older the created_time field
     .sort((a, b) => {
               return a.create_time - b.create_time;
     }
     );       
-
     return orderHistory;
 }
 

@@ -13,11 +13,11 @@ module.exports = (app) => {
             //         "currency": "FITFI"
             //     }}
             // );
-           gate.wsGet(Math.round(Math.random()*1000),'ticker.query', 
-           {
-            "currency_pair": "FITFI_USDT",
-            "channel": "ticker"
-              });
+        //    gate.wsGet(Math.round(Math.random()*1000),'ticker.query', 
+        //    {
+        //     "currency_pair": "FITFI_USDT",
+        //     "channel": "ticker"
+        //       });
             // gate.wsGet(Math.round(Math.random()*1000),'server.time',[]);
            
             // gate.wsGet(Math.round(Math.random()*1000),'balance.update', []);
@@ -37,12 +37,12 @@ module.exports = (app) => {
 
             // gate.wsGet(Math.round(Math.random()*1000),'kline.update', [ 1492358400, "7000.00","8000.0","8100.00","6800.00", "1000.00","123456.00","BTC_USDT"]);
 
-            //	gate.wsGet(Math.round(Math.random()*1000),'server.sign', []);		
+            	gate.wsGet(Math.round(Math.random()*1000),'server.sign', []);		
             //  gate.wsGet(Math.round(Math.random()*1000),'order.query', ["BTC_USDT", 0, 10]);	
             //	gate.wsGet(Math.round(Math.random()*1000),'order.subscribe', ["BTC_USDT"]);
             //	gate.wsGet(Math.round(Math.random()*1000),'order.update', [2, "12345654654"]);
             //	gate.wsGet(Math.round(Math.random()*1000),'order.unsubscribe', []);
-            //  gate.wsGet(Math.round(Math.random()*1000),'balance.query', ["BTC"]);
+            //  let result = gate.wsGet(Math.round(Math.random()*1000),'balance.query', ["BTC"]);
             //  gate.wsGet(Math.round(Math.random()*1000),'balance.subscribe', ["BTC"]);
             //	gate.wsGet(Math.round(Math.random()*1000),'balance.update', [{'EOS': {'available': '96.765323611874', 'freeze': '11'}}]);
             //	gate.wsGet(Math.round(Math.random()*1000),'balance.unsubscribe' ,[]);
@@ -52,6 +52,8 @@ module.exports = (app) => {
         }
 
         fun();
+
+
 
     }
     )

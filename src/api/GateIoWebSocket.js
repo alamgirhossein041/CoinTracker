@@ -31,6 +31,7 @@ var gateio = {
             "method": method,
             "params": params
         });
+        console.log(array);
         ws.send(array);
     },
 }

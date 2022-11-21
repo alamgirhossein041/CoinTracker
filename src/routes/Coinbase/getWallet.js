@@ -48,6 +48,7 @@ module.exports = (app) => {
             allAccounts.map(function (element) {
 
                 let name = element.currency.name;
+                let currency = element.currency.code;
                 // Check if the token is a fiat currency
                 let type = element.type;
                 let id_token = '';
@@ -59,32 +60,32 @@ module.exports = (app) => {
                 let amount = element.balance.amount;
                 let id_wallet = element.id;
                 let code = element.currency.code;
-                let updated_at = new Date().getTime();
+                let timestamp = new Date().getTime();
 
                 if (amount > 0) {
                     // let priceData = await coinbaseApi.getPrice(code);
                     // console.log(priceData);
                     tokenList.push({
                         name,
+                        currency,
                         id_token,
                         id_wallet,
                         code,
                         type,
                         amount,
-                        updated_at
+                        timestamp
                     });
                 }
             });
-
+            // ajout du prix
             let k = 0;
             while (k < tokenList.length) {
                 let code = tokenList[k].code
                 let priceData = await coinbaseApi.getPrice(code);
                 console.log(priceData);
-                tokenList[k].price = priceData;
+                tokenList[k].live_price = priceData.data.amount;
                 k++;
             }
-
 
             res.json({ data: tokenList, message: "Le wallet est mis à jour avec " + tokenList.length + " tokens" });
 

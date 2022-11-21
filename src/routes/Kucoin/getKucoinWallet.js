@@ -10,6 +10,30 @@ const conf = {
     environment: 'live'
 }
 
+const agregateWallet = (wallet) => {
+    ;
+    let result = [];
+    console.log('agregateWallet ', wallet);
+    wallet.forEach(function (element) {
+        if (!this[element.currency]) {
+            this[element.currency] = {
+                id: element.id,
+                currency: element.currency,
+                balance: 0,
+                type: element.type,
+                live_price: element.live_price,
+                available: element.available,
+                holds: element.holds,
+                quoteAPIorigin: element.quoteAPIorigin
+            };
+
+            result.push(this[element.currency]);
+        }
+        this[element.currency].balance += parseFloat(element.balance);
+    }, Object.create(null));
+    return result;
+}
+
 
 module.exports = (app) => {
     app.get('/kucoin/wallet', async (req, res) => {
@@ -17,10 +41,10 @@ module.exports = (app) => {
         api.init(conf);
         // console.log(conf)
         async function getAccounts() {
-            console.log('getAccounts');
+            console.log('getAccounts kucoin');
             try {
                 let r = await api.getAccounts()
-                // console.log(r.data)
+                console.log(r.data)
                 let data = r.data;
                 let filtred = data.filter(account => {
                     if (account.balance > 0) {
@@ -30,36 +54,47 @@ module.exports = (app) => {
                 )
 
                 // add current fiat price for each currency
-                // console.log('filtred', filtred)
-                // make an array with all the currencies
                 let codes = filtred.map(account => {
                     return account.currency;
                 })
-                console.log('codes List', codes)
 
                 let params = {
                     currencies: codes
-                }
+                };
+
                 let pricesKucoin = await api.getFiatPrice(params);
-                // ()
-                console.log('pricesKucoin', pricesKucoin.data)
 
 
-                
-                // Add Live Price to each account
-                filtred.forEach(account => {
-                    account.live_price = pricesKucoin.data[account.currency];
+                // Add Live Price to each account + variation Market data
+                for (let index = 0; index < filtred.length; index++) {
+                    let currencies = '';
+                    if (filtred[index].currency === 'ETH2') {
+                        currencies = filtred[index].currency + '-ETH';
+
+                    } else if (filtred[index].currency === 'USDT') {
+                        currencies = filtred[index].currency + '-DAI';
+
+                    } else {
+                        currencies = filtred[index].currency + '-USDT';
+                    }
+                    let data = await api.get24hrStats(currencies);
+                    // console.log('data API origin Kucoin' , data.data)
+                    filtred[index].quoteAPIorigin = data.data;
+
+                    filtred[index].live_price = parseFloat(pricesKucoin.data[filtred[index].currency]);
+
                 }
-                )
 
+
+                // agregate compte depot trade et earn  
+                filtred = agregateWallet(filtred);
                 res.json({ filtred });
+
             } catch (err) {
                 console.log(err)
             }
         }
         getAccounts();
-
-      
     }
     )
 }

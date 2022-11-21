@@ -1,6 +1,6 @@
-const coinbaseApi = require('../../api/coinbaseApi');
+const coinbaseApi = require('../src/api/coinbaseApi');
 const request = require('request');
-const sequelize = require('../../db/sequelize');
+const sequelize = require('../src/db/sequelize');
 
 module.exports = (app) => {
     app.get('/coinbase/transaction-list', async(req, res) => {
