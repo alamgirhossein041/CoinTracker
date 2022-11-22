@@ -87,7 +87,7 @@ module.exports = (app) => {
                 k++;
             }
 
-            res.json({ data: tokenList, message: "Le wallet est mis à jour avec " + tokenList.length + " tokens" });
+            res.json(tokenList);
 
         }
         getAllTokens();

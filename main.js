@@ -15,11 +15,12 @@ app
     .use(favicon(__dirname + '/favicon.ico')) // set favicon
     .use(morgane('dev')) // Log requests to console
     .use(bodyParser.json()) // Parse JSON bodies
+
 app.use('/static', express.static(__dirname + '/views'));
 
 //Front manager
-app.set("view engine", "pug");
-app.set("views", path.join(__dirname, "views"));
+// app.set("view engine", "pug");
+// app.set("views", path.join(__dirname, "views"));
 
 app.listen(port, () => console.log(`App listening on port ${port}!`));
 

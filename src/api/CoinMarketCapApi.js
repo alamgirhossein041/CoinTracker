@@ -1,7 +1,6 @@
 const config = require('../../secret.json');
 
 
-
 const buidPathCMC = (endPoint, query = '') => {
 
     const endPoints = {
@@ -9,8 +8,8 @@ const buidPathCMC = (endPoint, query = '') => {
         'all-tokens': '/v1/cryptocurrency/map',
         'prices': '/v2/cryptocurrency/quotes/latest?symbol=',
     }
-    if(query === '') {
-    return 'https://pro-api.coinmarketcap.com' + endPoints[endPoint]
+    if (query === '') {
+        return 'https://pro-api.coinmarketcap.com' + endPoints[endPoint]
     } else {
         let path = 'https://pro-api.coinmarketcap.com' + endPoints[endPoint] + query.symbol;
         // console.log('path : ', path);

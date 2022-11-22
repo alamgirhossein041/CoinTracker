@@ -88,7 +88,8 @@ module.exports = (app) => {
 
                 // agregate compte depot trade et earn  
                 filtred = agregateWallet(filtred);
-                res.json({ filtred });
+
+                res.json(filtred);
 
             } catch (err) {
                 console.log(err)
